@@ -12,8 +12,8 @@ console.log(`"I was ${newVar} feeling hungry today"`);
 // 2."brown"
 // const story= "The quick brown fox jumps over the lazy dog"
 const stories= "The quick brown fox jumps over the lazy dog"
-console.log(story.match(/the/g).length);
-console.log(story.match(/brown/g).length);
+console.log(stories.match(/the/g).length);
+console.log(stories.match(/brown/g).length);
 
 // Using JavaScript, find the following words from the following strings:
 // 1. "now"
@@ -22,8 +22,8 @@ console.log(story.match(/brown/g).length);
 // const string2 = "The child was sitting on the table before it fell"
 
 const stringg = "We are now going to school";
-console.log(string5.includes("now"));
-console.log(string5.includes("sitting"));
+console.log(stringg.includes("now"));
+console.log(stringg.includes("sitting"));
 
 // Convert the following strings into the specified format:
 // 1. UpperCase: "wonderful"
